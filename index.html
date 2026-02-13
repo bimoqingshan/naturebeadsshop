@@ -1,31 +1,87 @@
-<main id="collection" class="max-w-6xl mx-auto py-20 px-6">
-    <h2 class="text-3xl font-serif text-center mb-16 underline underline-offset-8">Featured Artifacts</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-        <div class="group cursor-pointer">
-            <div class="aspect-square bg-slate-200 mb-4 overflow-hidden rounded-sm">
-                <img src="images/product1.jpg?auto=format&fit=crop&q=80&w=600" alt="Handcrafted Cinnabar Bead" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Orient Studio | Handcrafted Artisanal Decor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans">
+    <nav class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-serif font-bold tracking-widest text-stone-900 uppercase">Zen Orient</a>
+            <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-semibold">
+                <a href="#collection" class="hover:text-orange-800 transition">Collection</a>
+                <a href="shipping-policy.html" class="hover:text-orange-800 transition">Shipping</a>
+                <a href="contact.html" class="hover:text-orange-800 transition">Contact</a>
             </div>
-            <h3 class="font-bold text-lg mb-1 italic">Traditional Cinnabar Bead Bracelet</h3>
-            <p class="text-slate-500 text-sm mb-3 font-serif italic">Hand-selected natural cinnabar, polished by artisans.</p>
-            <p class="text-amber-800 font-bold">$68.00 USD</p>
         </div>
-        
-        <div class="group cursor-pointer">
-            <div class="aspect-square bg-slate-200 mb-4 overflow-hidden rounded-sm">
-                <img src="images/product2.jpg?auto=format&fit=crop&q=80&w=600" alt="Sandalwood Accessory" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+    </nav>
+
+    <header class="relative h-[50vh] flex items-center justify-center bg-stone-200">
+        <div class="absolute inset-0 bg-gradient-to-r from-stone-400 to-stone-300 opacity-50"></div>
+        <div class="relative text-center px-4">
+            <h1 class="text-4xl md:text-5xl font-serif italic mb-4">Eastern Aesthetics, Modern Living</h1>
+            <p class="text-base max-w-xl mx-auto mb-8 font-light">Handcrafted artifacts and gemstone accessories inspired by traditional craftsmanship.</p>
+        </div>
+    </header>
+
+    <main id="collection" class="max-w-6xl mx-auto py-20 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            
+            <div class="group">
+                <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6 border border-stone-200">
+                    <img src="images/product1.jpg" alt="Natural Cinnabar Bracelet" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <h3 class="font-serif text-lg mb-2">Artisan Cinnabar Bead Bracelet</h3>
+                <p class="text-xs text-stone-500 mb-4 italic leading-relaxed">Genuine mineral beads with traditional handcrafted silk threading.</p>
+                <p class="font-bold text-stone-900 tracking-wider">$68.00 USD</p>
             </div>
-            <h3 class="font-bold text-lg mb-1 italic">Natural Sandalwood Zen Accessory</h3>
-            <p class="text-slate-500 text-sm mb-3 font-serif italic">Aromatic sandalwood beads for mindful living.</p>
-            <p class="text-amber-800 font-bold">$45.00 USD</p>
-        </div>
-        
-        <div class="group cursor-pointer">
-            <div class="aspect-square bg-slate-200 mb-4 overflow-hidden rounded-sm">
-                <img src="images/product3.jpg?auto=format&fit=crop&q=80&w=600" alt="Brass Decor" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+
+            <div class="group">
+                <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6 border border-stone-200">
+                    <img src="images/product2.jpg" alt="Sandalwood Accessory" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <h3 class="font-serif text-lg mb-2">Natural Sandalwood Zen Beads</h3>
+                <p class="text-xs text-stone-500 mb-4 italic leading-relaxed">Sustainably sourced sandalwood with a subtle natural aroma.</p>
+                <p class="font-bold text-stone-900 tracking-wider">$45.00 USD</p>
             </div>
-            <h3 class="font-bold text-lg mb-1 italic">Antique Style Brass Incense Holder</h3>
-            <p class="text-slate-500 text-sm mb-3 font-serif italic">Vintage-inspired desk decor for workspace serenity.</p>
-            <p class="text-amber-800 font-bold">$89.00 USD</p>
+
+            <div class="group">
+                <div class="aspect-[4/5] overflow-hidden bg-stone-100 mb-6 border border-stone-200">
+                    <img src="images/prod3.jpg" alt="Brass Decor" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <h3 class="font-serif text-lg mb-2">Vintage Style Brass Artifact</h3>
+                <p class="text-xs text-stone-500 mb-4 italic leading-relaxed">Solid brass casting with a weathered finish for home workspace.</p>
+                <p class="font-bold text-stone-900 tracking-wider">$89.00 USD</p>
+            </div>
+
         </div>
-    </div>
-</main>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-16 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-xs tracking-wide">
+            <div>
+                <h4 class="text-white uppercase font-bold mb-6">Zen Orient Studio</h4>
+                <p class="leading-relaxed">Bridging ancient tradition and modern aesthetics through high-quality, handcrafted oriental artifacts.</p>
+            </div>
+            <div>
+                <h4 class="text-white uppercase font-bold mb-6">Quick Links</h4>
+                <ul class="space-y-3">
+                    <li><a href="shipping-policy.html" class="hover:text-white transition underline underline-offset-4">Shipping Policy</a></li>
+                    <li><a href="refund-policy.html" class="hover:text-white transition underline underline-offset-4">Refund Policy</a></li>
+                    <li><a href="contact.html" class="hover:text-white transition underline underline-offset-4">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white uppercase font-bold mb-6">Customer Service</h4>
+                <p>Email: support@zenorientstudio.com</p>
+                <p class="mt-4 italic">Worldwide shipping via premium tracked couriers.</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-stone-800 text-[10px] text-center uppercase tracking-widest">
+            © 2026 Zen Orient Studio. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
